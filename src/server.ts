@@ -21,4 +21,4 @@ app.use((err: Error, request: Request, response: Response, next: NextFunction) =
     }
 );
 
-app.listen({ port: 3333, host: '0.0.0.0' }, () => console.log( 'Server on!!!' ));
+app.listen({ port: 3333, host: '0.0.0.0' }, () => console.log( `Server on port 3333` ));

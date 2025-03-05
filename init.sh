@@ -9,4 +9,4 @@ echo "Banco de dados pronto! Rodando as migrações..."
 npx prisma migrate deploy
 
 echo "Iniciando a aplicação..."
-npm run start
+node dist/src/server.js
